@@ -19,3 +19,13 @@ s.right(90)
 s.fillcolor("blue")
 
 turtle.done()
+
+poly= turtle.Turtle()
+
+poly.penup()
+poly.setposition(-250, 250)
+poly.pendown()
+poly.circle(50)
+poly.penup()
+turtle.done()
+
