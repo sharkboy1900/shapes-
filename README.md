@@ -39,3 +39,13 @@ Tri.forward(100)
 Tri.setposition(250, -300)
 Tri.penup()
 turtle.done()
+
+pen = turtle.Turtle()
+pen.penup()
+pen.setposition(-190, -190)
+for i in range(5):
+  pen.pendown()
+  pen.forward(50)
+  pen.right(72)
+  pen.penup()
+turtle.done()
